@@ -1,0 +1,219 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-28px);
+		transform: translateY(-28px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.navbar-toggler {
+    background-color: #D9D3B3;
+}
+
+body {
+	background-color: #2C2020;
+	font: 16px Poppins, sans-serif;
+	color: #D9D3B3;
+}
+
+nav {
+	z-index: 100;
+	background: #499B8F;
+}
+
+.menu {
+	font-weight: bold;
+}
+
+.menu a{
+    text-decoration: none;
+	padding: 10px;
+	color: #D9D3B3;
+}
+
+.menu a:hover {
+	color: #F94D63;
+}
+
+.btn-outline-primary {
+    border-color: #2C2020;
+    color: #2C2020;
+}
+
+.btn-outline-primary:hover {
+    background-color: #F94D63;
+    color: #D9D3B3;
+    border-color: #F94D63;
+    font-weight: bold;
+}
+
+.frases {
+	margin-top: 8em;
+    margin-left: 8em;
+    height: 15em;
+}
+
+.frases h1 {
+	font-size: 40px;
+}
+
+.frases p {
+    color: #B2B2B2;
+    font-size: 16px;
+}
+
+.other {
+	color: #f94d63;
+}
+
+.redes img {
+	width: 27px;
+	height: 27px;
+	padding-right: 5px;
+}
+
+.ftperfil {
+	width: 28em;
+	height: 18em;
+}
+
+.sobre p {
+    width: 700px;
+}
+
+.get-off {
+    margin-top: 20em;
+} 
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .frases h1{
+        font-size: 20px;
+    }
+    .frases p{
+        font-size: 10px;
+    }
+    .frases {
+        margin-top: 4em;
+        margin-left: 4em;
+    }
+    .redes img {
+        width: 22px;
+        height: 22px;
+        padding-right: 3px;
+    }
+    .ftperfil {
+        width: 23em;
+        height: 13em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .sobre p {
+        width: 100%;
+        margin-right: 10%;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .frases h1{
+        font-size: 25px;
+    }
+    .frases p{
+        font-size: 11px;
+    }
+    .frases {
+        margin-top: 5em;
+        margin-left: 5em;
+    }
+    .redes img {
+        width: 23px;
+        height: 23px;
+        padding-right: 3px;
+    }
+    .ftperfil {
+        width: 24em;
+        height: 14em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .sobre p {
+        width: 100%;
+        margin-right: 10%;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .frases h1{
+        font-size: 30px;
+    }
+    .frases p{
+        font-size: 12px;
+    }
+    .frases {
+        margin-top: 6em;
+        margin-left: 6em;
+    }
+    .redes img {
+        width: 24px;
+        height: 24px;
+        padding-right: 4px;
+    }
+    .ftperfil {
+        width: 25em;
+        height: 15em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .sobre p {
+        width: 100%;
+        margin-right: 10%;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .frases h1{
+        font-size: 38px;
+    }
+    .frases p{
+        font-size: 16px;
+    }
+    .frases {
+        margin-top: 7em;
+        margin-left: 7em;
+    }
+    .redes img {
+        width: 25px;
+        height: 25px;
+        padding-right: 5px;
+    }
+    .ftperfil {
+        width: 26em;
+        height: 16em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .sobre p {
+        width: 100%;
+        margin-right: 10%;
+    }
+ }
